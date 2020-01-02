@@ -1,3 +1,5 @@
+/*  BASIC SETUP */
+/* --------------------------------------- */
 * {
   margin: 0;
   padding: 0;
@@ -11,6 +13,11 @@ html {
   font-size: 20px;
   text-rendering: optimizeLegibility;
 }
+
+/* --------------------------------------- */
+
+/* HEADER */
+/* --------------------------------------- */
 
 header {
   background-image: linear-gradient(hsla(0, 0%, 0%, 0.7), hsla(0, 0%, 0%, 0.7)),
@@ -30,6 +37,11 @@ h1 {
   letter-spacing: 1px;
   word-spacing: 4px;
 }
+
+/* --------------------------------------- */
+
+/* CLASSES STYLE */
+/* --------------------------------------- */
 
 .row {
   max-width: 1140px;
@@ -83,3 +95,38 @@ h1 {
   border: 1px solid #cf6d17;
   color: #fff;
 }
+
+.logo {
+  height: 250px;
+  width: auto;
+  float: left;
+}
+
+.main-nav {
+  float: right;
+  list-style: none;
+  margin-top: 50px;
+}
+
+.main-nav li {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+  padding: 8px 0;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 90%;
+  border-bottom: 2px solid transparent;
+  transform: border-bottom 0.3s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+  border-bottom: 2px solid #e67e22;
+}
+
+/* --------------------------------------- */
